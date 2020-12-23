@@ -1,0 +1,1 @@
+# typescriptを適当に学ぶ
