@@ -1,4 +1,8 @@
-class DualEffector<T> {
+interface Effector<T> {
+    affected() : T[];
+}
+
+class DualEffector<T> implements Effector<T> {
 
     private item : T
 
